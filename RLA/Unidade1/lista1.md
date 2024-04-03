@@ -1,4 +1,4 @@
-# Q.1 Algoritmo para determinar se um número inteiro e positivo é par ou impar
+# Q.1 Algoritmo verifica_par_impar
 
 ```java
 ALGORITMO TrocaValores
@@ -26,8 +26,9 @@ INICIO
 FIM
 ```
 
-Q.2 Algoritmo para calcular o novo salário de um funcionário
+Q.2 Algoritmo ReajusteSalario
 
+```java
 DECLARE sal_atual, sal_reaj: REAL
 
 INICIO
@@ -45,9 +46,10 @@ INICIO
     ESCREVA "O novo salário é R$", salario_reajustado
 
 FIM
+```
+Q.3 Algoritmo SituacaoAluno
 
-Q.3 Algoritmo para calcular a média aritmética entre duas notas de um aluno e mostrar sua situação, que pode ser aprovado ou reprovado
-
+```java
 DECLARE nota1, nota2, media: REAL
 
 INICIO
@@ -74,9 +76,10 @@ INICIO
     FIM_SE
 
 FIM
+```
+Q.4 Algoritmo AptoCNH
 
-Q.4 Algoritmo que determina se pode ou não tirar a CNH, a partir da idade do candidato. Caso não atender a restrição de idade, calcular quantos anos faltam para o candidato estar apto
-
+```java
 DECLARE idade, anos_apto: INTEIRO
 
 INICIO
@@ -98,5 +101,4 @@ INICIO
     FIM_SE
 
 FIM
-
-
+```
